@@ -106,7 +106,6 @@ public sealed class WhereFilter
             WhereFilterJsonSerializerContext.Default.WhereFilter);
     }
 
-
     private WhereFilter AddComparison(string field, string comparison, object? value) =>
         Add(field, new global::System.Collections.Generic.Dictionary<string, object?>
         {
